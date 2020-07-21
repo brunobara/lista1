@@ -4,4 +4,3 @@
 
 #### How to run
  python generalizacao.py
- 
