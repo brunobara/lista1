@@ -5,22 +5,23 @@ class Loja:
     def __init__(self, id):
         self.id = id
         self.conta = Conta(0)
-        self.capacidade = random.randint(10, 250)
+        self.capacidade = random.randint(5, 50)
+        #self.capacidade = 3
         self.experiencia = random.randint(0, 10)
+        #self.custo = 1
         self.custo = round(random.random() * 15, 2)
 
     def visita_clientes(self):
         if self.capacidade >= 0:
             self.capacidade -= 1
-            return True
         else:
-            return False
+            return self.capacidade == 0
 
     def experiencia(self):
         if self.capacidade <= 5:
             self.experiencia -= 10
             return self.experiencia
-        elif self.capacidade < 100:
+        elif self.capacidade < 50:
             return self.experiencia
         else:
             self.experiencia += 10
@@ -44,3 +45,9 @@ if __name__ == '__main__':
 
     # Capacidade
     print(f'A capacidade da {cafeteria.id} é de {cafeteria.capacidade} pessoas')
+    #for i in range(1, 25):
+    #    cafeteria.visita_clientes()
+    #    print(f'A capacidade da {cafeteria.id} é de {cafeteria.capacidade} pessoas')
+
+    # Experiência
+    print(f'A experiência da {cafeteria.id} é de {cafeteria.experiencia}')

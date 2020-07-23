@@ -1,12 +1,18 @@
-from lista2.simulacao import Simulacao
-from lista2.simulacao import gravar_arquivo
+from simulacao import Simulacao
+from simulacao import gravar_arquivo
+
+def generalizacao(x):
+    med_exp = []
+    #med_custo = []
+    #med_saldo_cliente = []
+    #med_saldo_loja = []
+    for i in range(x):
+        minha_sim = Simulacao()
+        print(minha_sim)
+
 
 if __name__ == '__main__':
-    num_vezes = 100
-    media_total = 0
-    for i in range(num_vezes):
-        sim = Simulacao()
-        media_total += sim.run_model()
 
-    print(f'A média da experiência simulada {num_vezes} vezes é: {media_total/num_vezes}')
-    gravar_arquivo('generalizacao', f'A média da experiência simulada {num_vezes} vezes é: {media_total/num_vezes}')
+    num_vezes = 2
+    generalizacao(num_vezes)
+    #print(f'A média da experiência simulada {num_vezes} vezes é: {med_exp/num_vezes}')

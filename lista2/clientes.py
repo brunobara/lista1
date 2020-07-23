@@ -1,4 +1,4 @@
-from lista2.conta import Conta
+from conta import Conta
 
 class Cliente:
     def __init__(self, id):
