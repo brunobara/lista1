@@ -5,13 +5,13 @@ Professor: `Furtado, Bernardo Alves`
 
 Mestrando: `Cardoso, Bruno Baranda`
 
-Pergunta: Quais os **determinantes** da evasão dos cursos EaD?
+Pergunta: Quais os **determinantes** da evasão de alubis nos cursos EaD?
 
-Hipótese:  É possível inferir, ou aprender, o comportamento do aluno a partir da **experiência observada**.
+Hipótese: É possível inferir, ou aprender, o comportamento do aluno a partir da **experiência observada**.
 
-Entre as características dos cursos destacam-se: 1. tema, carga horária, data de lançamento, época da oferta.
+Entre as características dos cursos destacam-se: tema, carga horária, data de lançamento, época da oferta.
 
-Entre as características dos alunos destacam-se: 1. idade, gênero, escolaridade, UF, data de inscrição. a. idade = random.uniforme(18, 45) b. genero = random.choice(['male', 'female']) c. uf = random.randint(0, 26) d. data = random... 2. https://github.com/BAFurtado/censo2010
+Entre as características dos alunos destacam-se: idade, gênero, escolaridade, UF, data de inscrição.
 
 Outputs:
 
