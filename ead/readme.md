@@ -19,9 +19,10 @@ Outputs:
 2. Resultados/Aprovações (simulados)
 
 Processo:
-Cria alunos, Cria cursos, Cria interação. Processo de calibragem no intuito os de descobrir quais são os determinantes.
 
-Uma vez identificado o padrão, será possível ver qual alteração é mais benéfica (gera melhor resultado)...
+Cria alunos, cursos, turma e interação. Processo de calibragem no intuito os de descobrir quais são os determinantes.
+
+Uma vez identificado o padrão, será possível verificar qual alteração é mais benéfica para reduzir evasão.
 
 Comentários: Qual é a diferença entre essa proposta e econometria? Essa proposta é mais flexível, você foge do formato `y = ax + b + erro`. Não é diferente de uma análise de exploratória de dados (dados existentes). Para ser diferente, será necessário avançar de forma prospectiva. Testar padrões para replicar cenários buscando identificar os mecanismos subjacentes (processo gerador de dados).
 
